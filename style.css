@@ -41,7 +41,7 @@ footer {
 #reset {
     display: block;
     position: relative;
-    margin-top: 120px;
+    margin-top: 165px;
     left: 25%; 
     width: 100px;
     padding: 12px 7px;
@@ -52,11 +52,12 @@ footer {
     
 
 #clear {
+    position: absolute;
     display: block;
-    position: relative;
-    margin-top: 75px;
-    left: 25%; 
-    width: 100px;
+    top: 39.5%;
+    margin-top: 20px;
+    left: 10%; 
+    width: 300px;
     padding: 12px 7px;
     border-radius: 12px;
     font-size: medium;
@@ -67,7 +68,7 @@ footer {
 #rgb {
     display: block;
     position: relative;
-    margin-top: 75px;
+    margin-top: 40px;
     left: 25%; 
     width: 100px;
     padding: 12px 7px;
@@ -80,7 +81,7 @@ footer {
 #black {
     display: block;
     position: relative;
-    margin-top: 75px;
+    margin-top: 50px;
     left: 25%; 
     width: 120px;
     padding: 12px 7px;

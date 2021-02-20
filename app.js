@@ -27,7 +27,7 @@ function makeTable () {
 document.getElementById("makeTable").addEventListener("click", makeTable);
 
 
-let any = Math.floor(Math.random()*16777215).toString(16);
+
 
 // Function to change each box into a random color on click
 function rgb () {
@@ -45,7 +45,7 @@ function rgb () {
         tbody.appendChild(r);
         
     }
-    
+    let any = Math.floor(Math.random()*16777215).toString(16);
     let boxes = document.getElementsByTagName("td");
     for (let k = 0; k < boxes.length; k++) {
         boxes[k].addEventListener("click", function () {
