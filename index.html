@@ -10,10 +10,10 @@
 
     <body>
         <div class="choices">
-          <button id="reset">Reset</button>
-          <button id="clear">Clear</button>
-          <button id="rgb">RGB</button>
-          <button id="black">Black/White</button>
+          <button id="reset" onClick="window.location.reload()">Reset</button>
+          <button id="clear" onclick="color ()">Clear</button>
+          <button id="rgb" onclick="rgb()">RGB</button>
+          <button id="black" onclick="black()">Black/White</button>
         </div>
        
         <form> 
@@ -24,8 +24,9 @@
 
     
                 
-        <table id="table">
-            <tbody ></tbody>
+        <table id="table" class="table">
+            <tbody >
+            </tbody>
         </table>
 
         <script src="app.js"></script>
